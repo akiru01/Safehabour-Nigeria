@@ -1,0 +1,141 @@
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+#loading-page{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-image: url(../images/close-up-community-concept-with-hands.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     opacity: 1;
+     text-align: center;
+}
+nav{
+     background-color: #017401;
+}
+#logo{
+     width: 150px;
+     height: auto;
+}
+
+.flexInt{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.flexII{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.flexII div{
+     width: 50%;
+}
+.carousel-caption{
+     background-color: #9d9d9ddb;
+     padding: 20px;
+     border-radius: 20px;
+     color: #017401;
+}
+.carousel-caption h1,
+.carousel-caption p{
+     text-align: center;
+     color: black;
+     font-weight: bolder;
+}
+.sec1{
+     text-align: center;
+}
+.innSec{
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+.innSec img{
+     border-radius: 20px;
+}
+.flexII p{
+     font-size: 18px;
+}
+.legal{
+     padding: 10px;
+     padding-top: 20px;
+     /* border-top: 2px solid #c6c6c6; */
+}
+.btnSh{
+     padding: 10px;
+     border-radius: 10px;
+     text-decoration: none;
+     background-color: #00b100;
+     color: white;
+}
+.btnSh:hover{
+     background-color: #029602;
+}
+.btnSh:active{
+     background-color: #016501;
+}
+.app{
+     background-color: #dadada63;
+     padding: 10px;
+     padding-top: 20px;
+}
+.app img{
+     height: 150px;
+}
+.sec2{
+     background-color: rgba(213, 213, 213, 0.476);
+     padding: 30px;
+}
+footer{
+     background-image: url(../images/tourists-go-up-hill-sunrise.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+}
+.line{
+     border: 1px solid #00b100;
+}
+.l1{
+     display: none;
+}
+
+@media screen and (max-width: 500px) {
+     .flexInt .img1{
+          width: 35%;
+     }
+     .flexInt .img2{
+          width: 60%; 
+     }
+     .flexII div img{
+          height: 320px;
+          width: 100%;
+     }
+     .flexII .int1{
+          width: 55%;
+     }
+     .flexII .int2{
+          width: 40%;
+     }
+     .int1 p{
+          font-size: 14px;
+     }
+     .app img{
+          height: 50px;
+     }
+     .sec2 img{
+          height: 40px;
+     }
+     .l1{
+          display: block;
+     }
+}
